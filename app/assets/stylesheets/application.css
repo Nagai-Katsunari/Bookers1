@@ -1,0 +1,116 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_self
+ */
+
+ #title h1{
+   margin-left: 50px;
+ }
+.top{
+  display: flex;
+  margin-left: 80px;
+}
+
+.top p{
+  margin-right: 200px;
+  font-weight: bold;
+}
+
+
+ .sinki{
+  display: flex;
+  margin-left: 50px;
+  line-height: 50px;
+  height: 50px;
+ }
+
+ .sinki-1{
+   margin-right: 50px;
+   width: 100px;
+ }
+
+ .sinki-2{
+   width: 400px;
+ }
+
+ .sinki-3 a{
+   line-height: 50px;
+   text-decoration: none;
+   color: black;
+   border-bottom: solid 1px black;
+ }
+
+ .sinki-3 a:hover{
+   background-color: black;
+   color: white;
+ }
+
+
+ .sinki-3{
+  margin-left: 100px;
+ }
+
+ .new{
+   margin-left: 50px;
+ }
+
+ .new-btn{
+   margin-top: 5px;
+   display: block;
+ }
+
+ /*show*/
+
+ .show .block{
+   display: flex;
+   margin-left: 50px;
+ }
+ .show .block h2{
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.show .block p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.show a{
+  line-height: 20px;
+  text-decoration: none;
+  color: black;
+  border-bottom: solid 1px black;
+  font-size: 14px;
+}
+
+.show a:hover{
+  background-color: black;
+  color: white;
+}
+.show .tate{
+  width: 5px;
+  height: 20px;
+  border-right: solid 3px black;
+  line-height: 35px;
+  margin-right: 5px;
+  
+}
+
+.showmin{
+  margin-top: 40px;
+  margin-left: 30px;
+  display: flex;
+  height: 20px;
+}
+
+ 

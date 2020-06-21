@@ -1,0 +1,17 @@
+<div class="show">
+  <div class="block">
+    <h2>Title:</h2>
+    <p><%= @book.title %></p>
+  </div>
+  <div class="block">
+    <h2>Body:</h2>
+    <p><%= @book.body %></p>
+  </div>
+  
+  <div class="showmin">
+  <%= link_to "Edit", edit_book_path(@book.id) %>
+  <div class="tate"></div>
+  <a href="http://192.168.33.10:3000/books">Back</a>
+  </div>
+</div>
+
