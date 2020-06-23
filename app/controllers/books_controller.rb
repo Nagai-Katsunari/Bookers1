@@ -4,8 +4,6 @@ class BooksController < ApplicationController
   end
 
   def list
-    @books=Book.all
-    @book=Book.new
   end
 
   
@@ -15,8 +13,6 @@ class BooksController < ApplicationController
   end
 
   def new
-    @books=Book.all
-    @book=Book.new
   end
   
   def create
