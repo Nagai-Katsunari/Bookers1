@@ -85,7 +85,7 @@
   line-height: 20px;
 }
 
-.show a{
+.showmin a{
   line-height: 20px;
   text-decoration: none;
   color: black;
@@ -93,11 +93,11 @@
   font-size: 14px;
 }
 
-.show a:hover{
+.showmin a:hover{
   background-color: black;
   color: white;
 }
-.show .tate{
+.showmin .tate{
   width: 5px;
   height: 20px;
   border-right: solid 3px black;
@@ -113,4 +113,73 @@
   height: 20px;
 }
 
+.update-btn{
+  display: block;
+}
+
+
+.alert {
+  color:#262626; 
+  background:#FFEBE8;
+  text-align: center;
+  border:2px solid #990000;
+  padding:12px; font-weight:850;
+}
+
+.error{
+  font-size: 12px;
+  font-weight: bold;
+  color: tomato;
+}
  
+
+/*table*/
+table{
+  margin-left: 100px;
+  width: 1000px;
+}
+
+td:nth-child(1){
+  width: 200px;
+}
+td:nth-child(2){
+  width: 500px;
+}
+td:nth-child(3){
+  width: 50px;
+  text-decoration: none;
+  color: black;
+
+}
+td:nth-child(4){
+  width: 40px;
+  text-decoration: none;
+  outline: none;
+  color: black;
+ 
+}
+td:nth-child(5){
+  width: 40px;
+  text-decoration: none;
+  color: black;
+
+}
+
+td:nth-child(3):hover{
+  background-color: black;
+  color: white;
+}
+td:nth-child(4):hover{
+  background-color: black;
+  color: white;
+}
+td:nth-child(5):hover{
+  background-color: black;
+  color: white;
+}
+
+/*home*/
+.home{
+  margin-top: 50px;
+  margin-left: 100px;
+}
